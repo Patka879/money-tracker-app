@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(0deg, rgba(242,242,244,1) 0%, rgba(207,166,255,1) 100%);
+  background: linear-gradient( rgba(242,242,244,1) 0%, rgba(207,166,255,1) 100%);
   height: 100vh;
 }
 
@@ -11,7 +11,6 @@ p {
 .container {
   width: 300px;
   margin: 20px auto;
-  border: 1px solid purple;
   height: 700px;
 }
 
@@ -55,10 +54,11 @@ p {
   align-items: center;
   height: 50px;
   background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .income-expense-title {
-  font-size: 14px;
+  font-size: 10px;
   text-transform: uppercase;
   margin: 0px
 }
@@ -93,7 +93,7 @@ p {
 }
 
 .section-title {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(197, 196, 196);
   width: 230px;
 }
 
@@ -106,10 +106,38 @@ p {
   justify-content: space-between;
   margin: 2px;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .add {
   width: 230px;
 }
+
+label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+input {
+  border: none;
+  background-color: white;
+  margin: 10px 0 20px 0;
+  width: 230px;
+  padding: 0px;
+  height: 25px;
+  font-size: 12px;
+}
+
+button {
+  background-color: rgb(126, 60, 187);
+  color: white;
+  width: 230px;
+  border: none;
+  border-radius: 2px;
+  height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 
 
