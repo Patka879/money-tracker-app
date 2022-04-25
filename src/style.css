@@ -1,10 +1,115 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(0deg, rgba(242,242,244,1) 0%, rgba(207,166,255,1) 100%);
+  height: 100vh;
+}
+
+p {
+  margin: 0px;
+}
+
+.container {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid purple;
+  height: 700px;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.app-title {
+  font-size: 20px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.balance-stats {
+  margin-bottom: 15px;
+}
+
+.balance {
+  width: 230px;
+  margin-bottom: 15px;
+}
+
+.balance-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.balance-total {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.income-expense {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  background-color: white;
+}
+
+.income-expense-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0px
+}
+
+.income, .expense {
+  display: flex;
+  flex-direction: column;
+  line-height: 16px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.income {
+  border-right: 1px solid grey;
+}
+
+.income-amount {
+  color: green;
+}
+
+.expense-amount {
+  color: red;
+}
+
+.history  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 230px;
+  margin-bottom: 15px;
+}
+
+.section-title {
+  border-bottom: 1px solid grey;
+  width: 230px;
+}
+
+.historical-expense {
+  width: 217px;
+  padding: 5px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2px;
+  background-color: white;
+}
+
+.add {
+  width: 230px;
 }
 
 
