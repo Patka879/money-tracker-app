@@ -1,16 +1,20 @@
+import Header from "./Components/Header";
 import Balance from "./Components/Balance"
-import History from "./Components/History"
-import Add from "./Components/Add"
+import IncomeExpenses from "./Components/IncomeExpenses";
+import TransactionList from "./Components/TransactionList"
+import AddTransaction from "./Components/AddTransaction"
+
 
 export default function App() {
   return (
-    <div className="container">
-    <h1 className="app-title"> Expense Tracker </h1>
-    <div className="app-content">
-        <Balance />
-        <History />
-        <Add />
-    </div>
-</div>
-  );
+    <div>
+      <Header />
+      <div className="container">
+          <Balance />
+          <IncomeExpenses />
+          <TransactionList />
+          <AddTransaction />
+      </div>
+  </div>
+  )
 }
