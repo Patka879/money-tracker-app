@@ -107,10 +107,6 @@ h4 {
   border-right: 5px solid #c0392b;
 }
 
-.list li:hover .delete-btn {
-  opacity: 1;
-}
-
 label {
   font-size: 12px;
   font-weight: 600;
@@ -143,6 +139,11 @@ input {
   width: 100%
 }
 
+.add-button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.24);
+}
+
 .delete-button {
   cursor: pointer;
   background-color: #e74c3c;
@@ -159,10 +160,15 @@ input {
   transition: opacity 0.3s ease;
 }
 
-button:active {
-  transform: scale(0.98);
-  box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.24);
+.add-button:focus,
+.delete-button:focus {
+  outline: 0;
 }
+
+.list li:hover .delete-button {
+  opacity: 1;
+}
+
 
 @media (max-width: 320px) {
   .container {
