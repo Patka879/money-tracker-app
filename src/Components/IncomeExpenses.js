@@ -8,6 +8,7 @@ const IncomeExpenses = () => {
   const { transactions } = useContext(GlobalContext)
 
   const amounts = transactions.map(transaction => transaction.amount)
+  // eslint-disable-next-line
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2)
 
   const income = amounts
