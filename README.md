@@ -12,7 +12,9 @@ Project is created with:
 * react: ^18.0.0
 ## Setup 
 To start this project locally:
-
+```
+npm ci
+```
 Clone the repository:
 ```
 git clone git@github.com:Patka879/money-tracker-app.git
