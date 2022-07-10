@@ -13,15 +13,15 @@ Project is created with:
 ## Setup 
 To start this project locally:
 ```
-npm ci
+$ npm ci
 ```
 Clone the repository:
 ```
-git clone git@github.com:Patka879/money-tracker-app.git
+$ git clone git@github.com:Patka879/money-tracker-app.git
 ```
 Start the project:
 ```
-npm run start
+$ npm run start
 ```
 ## Inspiration
 This projects was inspired by @bradTraversy : https://www.youtube.com/watch?v=XuFDcZABiDQ&t=2491s&ab_channel=TraversyMedia
