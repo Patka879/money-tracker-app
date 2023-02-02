@@ -1,8 +1,6 @@
 import React, {createContext, useReducer} from "react"
 import AppReducer from './AppReducer'
 
-// Initial State
-
 const initialState = {
     transactions: []
 }
